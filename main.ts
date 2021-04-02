@@ -1526,7 +1526,7 @@ namespace TFTLCD {
 
     //% blockId=LCD_Filling
     //% blockGap=8
-    //% block="Filling Color %Color"
+    //% block="Filling LCD with Color %Color"
     //% weight=195
     export function LCD_Filling(Color: COLOR): void{
         LCD_SetWindows(0, 0, LCD_WIDTH, LCD_HEIGHT);
