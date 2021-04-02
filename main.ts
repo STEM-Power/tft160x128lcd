@@ -1604,7 +1604,7 @@ namespace TFTLCD {
     
     //% blockId=Draw_Clear
     //% blockGap=8
-    //% block="Clear Drawing cache"
+    //% block="Clear Drawing Screen Cache"
     //% weight=195
     export function LCD_ClearBuf(): void {
         let i;
@@ -1623,7 +1623,7 @@ namespace TFTLCD {
     
     //% blockId=LCD_Display
     //% blockGap=8
-    //% block="Show Full Screen"
+    //% block="LCD Screen Publishing"
     //% weight=190
     export function LCD_Display(): void {
         SPIRAM_Set_Mode(SRAM_STREAM_MODE);
