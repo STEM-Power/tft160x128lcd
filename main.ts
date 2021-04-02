@@ -36,11 +36,11 @@ enum COLOR {
     BLACK = 0x0000,   //000000//
     MAROON = 0x8000,     //800000//
     RED = 0xF800,      //FF0000//
-    BROWN = 0XBC40,      //B88800//
+    SOIL = 0XBC40,      //B88800//
     PUMPKIN = 0XFC07,      //FF8038//
     YELLOW = 0xFFE0,      //FFFF00//
-    OLIVE = 0X8400,      //808000//
     LIME = 0x07E0,      //00FF00//
+    OLIVE = 0X8400,      //808000//
     GREEN = 0X0400,      //008000//
     AQUA = 0X07FF,      //00FFFF//
     CYAN = 0x7FFF,     //7FFFFF//
@@ -49,8 +49,7 @@ enum COLOR {
     NAVY = 0X0010,     //000080//
     FUCHSIA = 0XF81F,     //FF00FF//
     PURPLE = 0X8010,     //800080//
-    
-    
+       
     
 }
 
