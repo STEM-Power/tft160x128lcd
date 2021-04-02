@@ -1,5 +1,6 @@
 {
     "name": "TFT160x128LCD",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
