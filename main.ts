@@ -5,7 +5,7 @@
 * | Info        :
 *----------------
 * | This version:   V1.0
-* | Date        :   2021-01-28
+* | Date        :   2021-04-2
 * | Info        :   for micro:bit v2
 *
 ******************************************************************************/
@@ -30,20 +30,28 @@ let SRAM_PAGE_MODE = 0x80
 let SRAM_STREAM_MODE = 0x40
 
 enum COLOR {
-    WHITE = 0xFFFF,
-    BLACK = 0x0000,
-    BLUE = 0x001F,
-    FUCHSIA = 0XF81F,
-    GRED = 0XFFE0,
-    GBLUE = 0X07FF,
-    RED = 0xF800,
-    MAGENTA = 0xF81F,
-    GREEN = 0x07E0,
-    CYAN = 0x7FFF,
-    YELLOW = 0xFFE0,
-    BROWN = 0XBC40,
-    BRRED = 0XFC07,
-    GRAY = 0X8430
+    WHITE = 0xFFFF,   //FFFFFF//
+    SILVER = 0XC618,     //C0C0C0//
+    GRAY = 0X8430,      //808080//
+    BLACK = 0x0000,   //000000//
+    MAROON = 0x8000,     //800000//
+    RED = 0xF800,      //FF0000//
+    BROWN = 0XBC40,      //B88800//
+    PUMPKIN = 0XFC07,      //FF8038//
+    YELLOW = 0xFFE0,      //FFFF00//
+    OLIVE = 0X8400,      //808000//
+    LIME = 0x07E0,      //00FF00//
+    GREEN = 0X0400,      //008000//
+    AQUA = 0X07FF,      //00FFFF//
+    CYAN = 0x7FFF,     //7FFFFF//
+    TEAL = 0X0410,     //008080//
+    BLUE = 0x001F,    //0000FF//
+    NAVY = 0X0010,     //000080//
+    FUCHSIA = 0XF81F,     //FF00FF//
+    PURPLE = 0X8010,     //800080//
+    
+    
+    
 }
 
 enum DOT_PIXEL{
