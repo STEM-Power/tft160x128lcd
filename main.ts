@@ -1402,10 +1402,10 @@ pins.spiFormat(8, 0)
 pins.spiFrequency(18000000)
 
 //% weight=20 color=#FF238B icon="\uf108"
-namespace LCD1IN8 {
+namespace TFTLCD {
     //% blockId=LCD_Init
     //% blockGap=8
-    //% block="LCD1IN8 Init"
+    //% block="LCD Init"
     //% weight=200
     export function LCD_Init(): void{
         pins.digitalWritePin(DigitalPin.P8, 1);
