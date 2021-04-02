@@ -1,7 +1,7 @@
 {
     "name": "TFT160x128LCD",
     "version": "0.0.1",
-    "description": "",
+    "description": "TFT 64K Color LCD control extension for Microbit Makecode",
     "dependencies": {
         "core": "*",
         "radio": "*",
